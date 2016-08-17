@@ -2,6 +2,7 @@ package com.neo.http.myviewtest;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.RelativeLayout;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.countview);
 
-//        RelativeLayout bt= (RelativeLayout) findViewById(R.id.relativelayout);
+        RelativeLayout bt= (RelativeLayout) findViewById(R.id.relativelayout);
 //
 //
 //        //获得LayoutInflater实例，简化写法
